@@ -1,0 +1,19 @@
+with(DifferentialGeometry):
+with(Tensor):
+
+# Define the coordinates
+DGsetup([x, y], M):
+DGsetup([x, y, f(x, y)], N):
+
+# Define the surface z = x^2 + y^2
+f := (x, y) -> x^2 + y^2:
+
+# Calculate the first fundamental form
+FirstFundamentalForm := DGinfo(N, 'FirstFundamentalForm');
+
+# Calculate the second fundamental form
+SecondFundamentalForm := DGinfo(N, 'SecondFundamentalForm');
+
+# Calculate the Gaussian curvature
+K := GaussianCurvature(N);
+simplify(K);

@@ -1,5 +1,13 @@
 # RIP-Earth
 
+# Geodesics
+
+How can geodesics be used in hyperbolic spaces?
+
+And How can there be any geodesics in hyperbolic spaces?
+
+"it is not touching" and so it is not definable. 
+
 # Curvatures
 
 Here are some useful resources and examples related to differential geometry:

@@ -4,7 +4,7 @@
 
 How can geodesics be used in hyperbolic spaces?
 
-And How can there be any geodesics in hyperbolic spaces?
+And How can there be any geodesics in hyperbolic spaces(curve)?
 
 "it is not touching" and so it is not definable. 
 
